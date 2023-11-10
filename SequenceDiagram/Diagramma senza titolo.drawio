@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-10T11:08:01.502Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Q5IevEp07EG1jYGESZ5Z" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-10T11:10:54.715Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="_f2FpQHjg8RWAjgEAz_I" version="22.1.0" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1036" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -12,6 +12,9 @@
         </mxCell>
         <mxCell id="R8ERbS6EY8pf5TJripWs-15" value="Smart Contract" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;size=70;" parent="1" vertex="1">
           <mxGeometry x="740" y="40" width="80" height="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="O211Ay1KzVId1JWZoX08-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="R8ERbS6EY8pf5TJripWs-15">
+          <mxGeometry x="30" y="540" width="20" height="760" as="geometry" />
         </mxCell>
         <mxCell id="gxXh9DrUmTccA9TRPWSn-6" value="alt" style="html=1;shape=mxgraph.sysml.package;labelX=35;fontStyle=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=-3;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="320" y="320" width="320" height="240" as="geometry" />
