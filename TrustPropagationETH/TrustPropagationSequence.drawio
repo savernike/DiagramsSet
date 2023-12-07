@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-10T11:10:54.715Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="_f2FpQHjg8RWAjgEAz_I" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-07T16:05:44.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="q8W90GmjAUPhSHSw_qFe" version="22.1.7" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1036" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="R8ERbS6EY8pf5TJripWs-15" value="Smart Contract" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;size=70;" parent="1" vertex="1">
           <mxGeometry x="740" y="40" width="80" height="1660" as="geometry" />
         </mxCell>
-        <mxCell id="O211Ay1KzVId1JWZoX08-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="R8ERbS6EY8pf5TJripWs-15">
+        <mxCell id="O211Ay1KzVId1JWZoX08-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="R8ERbS6EY8pf5TJripWs-15" vertex="1">
           <mxGeometry x="30" y="540" width="20" height="760" as="geometry" />
         </mxCell>
         <mxCell id="gxXh9DrUmTccA9TRPWSn-6" value="alt" style="html=1;shape=mxgraph.sysml.package;labelX=35;fontStyle=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=-3;fillColor=none;" parent="1" vertex="1">
@@ -44,7 +44,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gxXh9DrUmTccA9TRPWSn-24" value="[ETH&lt;sub&gt;B &lt;/sub&gt;not in blacklist]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="gxXh9DrUmTccA9TRPWSn-24" value="[User A accepts the conditions above]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="320" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gxXh9DrUmTccA9TRPWSn-25" value="Refuses invitation and stops protocol" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=classic;startFill=1;endFill=0;dashed=1;" parent="1" edge="1">
@@ -85,7 +85,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gxXh9DrUmTccA9TRPWSn-32" value="[User B has at least K&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;B&lt;/sub&gt;&lt;sup style=&quot;border-color: var(--border-color);&quot;&gt;A &lt;/sup&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;signers&lt;/span&gt;]&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="gxXh9DrUmTccA9TRPWSn-32" value="[User B has at least K&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;B&lt;/sub&gt;&lt;sup style=&quot;border-color: var(--border-color);&quot;&gt;A &lt;/sup&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;signers and ETH&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;B&amp;nbsp;&lt;/sub&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;is not revoked&lt;/span&gt;&lt;/span&gt;]&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="640" width="440" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gxXh9DrUmTccA9TRPWSn-33" value="Returns positive result&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=classic;startFill=1;endFill=0;dashed=1;" parent="1" edge="1">
@@ -146,55 +146,55 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O211Ay1KzVId1JWZoX08-2" value="Notifies User and stops protocol" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=classic;startFill=1;endFill=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="O211Ay1KzVId1JWZoX08-2" value="Notifies User and stops protocol" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=classic;startFill=1;endFill=0;dashed=1;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="390" y="1240" as="sourcePoint" />
             <mxPoint x="580" y="1240" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O211Ay1KzVId1JWZoX08-3" value="" style="shape=mxgraph.sysml.x;strokeWidth=7;" vertex="1" parent="1">
+        <mxCell id="O211Ay1KzVId1JWZoX08-3" value="" style="shape=mxgraph.sysml.x;strokeWidth=7;" parent="1" vertex="1">
           <mxGeometry x="370" y="1230" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="O211Ay1KzVId1JWZoX08-4" value="Returns transaction result" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=classic;startFill=1;endFill=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="O211Ay1KzVId1JWZoX08-4" value="Returns transaction result" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=classic;startFill=1;endFill=0;dashed=1;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="580" y="1320" as="sourcePoint" />
             <mxPoint x="780" y="1320" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O211Ay1KzVId1JWZoX08-5" value="alt" style="html=1;shape=mxgraph.sysml.package;labelX=35;fontStyle=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=-3;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="O211Ay1KzVId1JWZoX08-5" value="alt" style="html=1;shape=mxgraph.sysml.package;labelX=35;fontStyle=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=-3;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="320" y="1360" width="520" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="O211Ay1KzVId1JWZoX08-6" value="" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;endArrow=none;html=1;edgeStyle=none;dashed=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="O211Ay1KzVId1JWZoX08-5" target="O211Ay1KzVId1JWZoX08-5">
+        <mxCell id="O211Ay1KzVId1JWZoX08-6" value="" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;endArrow=none;html=1;edgeStyle=none;dashed=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="O211Ay1KzVId1JWZoX08-5" target="O211Ay1KzVId1JWZoX08-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="560" y="1410" as="targetPoint" />
             <mxPoint x="880" y="1410" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O211Ay1KzVId1JWZoX08-7" value="[else]" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];" vertex="1" connectable="0" parent="O211Ay1KzVId1JWZoX08-6">
+        <mxCell id="O211Ay1KzVId1JWZoX08-7" value="[else]" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];" parent="O211Ay1KzVId1JWZoX08-6" vertex="1" connectable="0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O211Ay1KzVId1JWZoX08-8" value="[Positive result from Smart Contract]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="O211Ay1KzVId1JWZoX08-8" value="[Positive result from Smart Contract]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="1360" width="440" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="O211Ay1KzVId1JWZoX08-9" value="Send ETH&lt;sub&gt;A&lt;/sub&gt;" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+        <mxCell id="O211Ay1KzVId1JWZoX08-9" value="Send ETH&lt;sub&gt;A&lt;/sub&gt;" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=classic;startFill=1;endFill=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="380" y="1440" as="sourcePoint" />
             <mxPoint x="580" y="1440" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O211Ay1KzVId1JWZoX08-12" value="Notifies User and stops protocol" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=classic;startFill=1;endFill=0;dashed=1;" edge="1" parent="1">
+        <mxCell id="O211Ay1KzVId1JWZoX08-12" value="Notifies User and stops protocol" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=classic;startFill=1;endFill=0;dashed=1;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="390" y="1560" as="sourcePoint" />
             <mxPoint x="580" y="1560" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O211Ay1KzVId1JWZoX08-13" value="" style="shape=mxgraph.sysml.x;strokeWidth=7;" vertex="1" parent="1">
+        <mxCell id="O211Ay1KzVId1JWZoX08-13" value="" style="shape=mxgraph.sysml.x;strokeWidth=7;" parent="1" vertex="1">
           <mxGeometry x="370" y="1550" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
