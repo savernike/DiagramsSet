@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T16:05:44.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="q8W90GmjAUPhSHSw_qFe" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-07T17:06:15.832Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="EVTKtZRh2s67kTI5zpiU" version="22.1.7" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1036" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -132,10 +132,10 @@
         <mxCell id="gxXh9DrUmTccA9TRPWSn-45" value="[Exists a transaction from ETH&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;B &lt;/sub&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;with&amp;nbsp;R&lt;sub style=&quot;border-color: var(--border-color);&quot;&gt;B&lt;/sub&gt;&lt;sup style=&quot;border-color: var(--border-color);&quot;&gt;A&lt;/sup&gt;&lt;/span&gt;]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="1040" width="440" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gxXh9DrUmTccA9TRPWSn-46" value="Notifies User" style="html=1;verticalAlign=bottom;endArrow=classic;curved=0;rounded=0;startArrow=none;startFill=0;endFill=1;" parent="1" edge="1">
+        <mxCell id="gxXh9DrUmTccA9TRPWSn-46" value="Notifies User" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=classic;startFill=1;endFill=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="380" y="800" as="sourcePoint" />
-            <mxPoint x="580" y="800" as="targetPoint" />
+            <mxPoint x="580" y="799.5" as="sourcePoint" />
+            <mxPoint x="780" y="799.5" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
